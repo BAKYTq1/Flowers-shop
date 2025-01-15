@@ -1,7 +1,6 @@
 .wrapper{
   width: 1920px;
  margin: 0 auto;
- margin-top: 140px;
  /* background-color: blue; */
 }
 .header{
@@ -11,6 +10,7 @@ margin: 0 auto;
 .section{
   width: 1420px;
 margin: 0 auto;
+margin-top: 140px;
 }
 .carousel-item {
   min-width: 400px;
