@@ -12,3 +12,6 @@ margin: 0 auto;
   width: 1420px;
 margin: 0 auto;
 }
+.carousel-item {
+  min-width: 400px;
+}
