@@ -95,7 +95,8 @@ const card = [
 card.forEach((card) => {
     const newdiv = document.createElement('div')
     newdiv.innerHTML = `
-    <div class="w-[340px] h-[544px] rounded-[3px] pl-[10px] pr-[10px] justify-center flex flex-wrap shadow-2xl items-center border-[1px] border-[#956D84]">
+     <div class="containerr active">
+      <div class="boss-div w-[330px] h-[534px] rounded-[10px] pl-[10px] pr-[10px] justify-center flex flex-wrap shadow-2xl items-center ">
              <div class="w-[340px] h-[304px] bg-[#FBF9FA] justify-center items-center flex relative ">
                 <img src="${card.Image}" alt="" >
                 <img src="${card.Image2}" alt="" class='absolute right-[13px] bottom-[27px]'>
@@ -119,6 +120,7 @@ card.forEach((card) => {
                      <a href="">
                         <h3 class='mt-[12px] text-[17px] mb-[15px] font-[400] text-[#828282] underline'>${card.buy}</h3>
                      </a>
+                    </div>
                     </div>
     `
    cards.appendChild(newdiv)
@@ -222,7 +224,8 @@ const cardT = [
 cardT.forEach((card) => {
     const newdivT = document.createElement('div')
     newdivT.innerHTML = `
-             <div class="w-[340px] h-[544px] rounded-[3px] pl-[10px] pr-[10px] justify-center flex flex-wrap shadow-2xl items-center border-[1px] border-[#956D84]">
+     <div class="containerr active">
+               <div class="boss-div w-[330px] h-[534px] rounded-[10px] pl-[10px] pr-[10px] justify-center flex flex-wrap shadow-2xl items-center ">
              <div class="w-[340px] h-[304px] bg-[#FBF9FA] justify-center items-center flex relative ">
                 <img src="${card.Image}" alt="" >
                 <img src="${card.Image2}" alt="" class='absolute right-[13px] bottom-[27px]'>
@@ -246,6 +249,7 @@ cardT.forEach((card) => {
                      <a href="">
                         <h3 class='mt-[12px] text-[17px] mb-[15px] font-[400] text-[#828282] underline'>${card.buy}</h3>
                      </a>
+                    </div>
                     </div>
     `
    cardTwo.appendChild(newdivT)
@@ -351,7 +355,8 @@ const cardTe = [
 cardTe.forEach((card) => {
     const newdivTe = document.createElement('div')
     newdivTe.innerHTML = `
-             <div class="w-[340px] h-[544px] rounded-[3px] pl-[10px] pr-[10px] justify-center flex flex-wrap shadow-2xl items-center border-[1px] border-[#956D84]">
+        <div class="containerr active">
+             <div class="boss-div w-[330px] h-[534px] rounded-[10px] pl-[10px] pr-[10px] justify-center flex flex-wrap shadow-2xl items-center ">
              <div class="w-[340px] h-[304px] bg-[#FBF9FA] justify-center items-center flex relative ">
                 <img src="${card.Image}" alt="" >
                 <img src="${card.Image2}" alt="" class='absolute right-[13px] bottom-[27px]'>
@@ -375,6 +380,7 @@ cardTe.forEach((card) => {
                      <a href="">
                         <h3 class='mt-[12px] text-[17px] mb-[15px] font-[400] text-[#828282] underline'>${card.buy}</h3>
                      </a>
+                    </div>
                     </div>
     `
    cardTree.appendChild(newdivTe)
