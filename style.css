@@ -19,7 +19,7 @@ margin-top: 140px;
   width: 1420px;
   height: 508px;
   margin: 0 auto;
-  position: relative;
+ display: flex;
   z-index: -100;
 }
 .map-container iframe {
@@ -30,9 +30,7 @@ margin-top: 140px;
 .item-block{
   width: 380px;
 height: 508px;
-position: absolute;
-right: 219px;
-bottom: 0px;
+border: 2px solid #956D84;
 background: white;
 }
 .triangle-right {
